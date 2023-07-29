@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #194376;
+  color: grey;
 }
 
 h1, .h1 {
@@ -519,6 +519,11 @@ mark,
   display: block;
   font-size: 80%;
   color: #6c757d;
+}
+.line{
+  border-bottom: 5px solid whitesmoke;
+  margin-top: 5px;
+  width: 100%;
 }
 
 .blockquote-footer::before {
@@ -2364,40 +2369,40 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #194376;
-  border-color: #194376;
+  color: #212529;
+  background-color: #46C6CE;
+  border-color: #46C6CE;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #123156;
-  border-color: #102b4c;
+  background-color: #32b4bc;
+  border-color: #2faab2;;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #123156;
-  border-color: #102b4c;
-  box-shadow: 0 0 0 0.2rem rgba(60, 95, 139, 0.5);
+  background-color: #32b4bc;
+  border-color: #2faab2;
+  box-shadow: 0 0 0 0.2rem rgba(64, 174, 181, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  color: #fff;
-  background-color: #194376;
-  border-color: #194376;
+  color: #212529;
+  background-color: #46C6CE;
+  border-color: #46C6CE;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #102b4c;
-  border-color: #0e2541;
+  background-color: #2faab2;
+  border-color: #2ca1a8;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(60, 95, 139, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(64, 174, 181, 0.5);
 }
 
 .btn-secondary {
