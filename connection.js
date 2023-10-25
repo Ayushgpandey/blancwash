@@ -7,9 +7,9 @@ var con = mysql.createConnection({
   database: "blancwash",
 });
 
-con.connect(function(error){
-  if(error) console.log(error);
+con.connect(function (error) {
+  if (error) console.log(error);
   console.log("connected");
 });
 
-module.exports=con;
+module.exports = con;
